@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Your preferred font', sans-serif;
+    background-color:  #141414;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 10px; 
+  }
+  
+ 
+
+  .container {
+    width: 350px;
+    background-color: #1F1F1F;
+    border-radius: 15px;
+    overflow: hidden;
+    /* box-shadow: 0 4px 8px rgba(0,0,0,0.1); */
+    display: flex;
+    flex-direction: column;
+    position: relative; 
+    /* box-shadow: 10px 10px 5px 0 rgba(0, 0, 0, 1); */
+  }
+
+  .description {
+    /* Stylizacja opisu */
+    font-size: 12px;
+    line-height: 1.5;
+    color:gray;
+    margin-bottom: 20px; 
+    margin-left: auto; /* Wyśrodkowanie przycisku w pojemniku */
+    margin-right: auto; /* Wyśrodkowanie przycisku w pojemniku */
+  }
+
+  .utton {
+    /* Stylizacja guzika Learning */
+    background-color:  #333333; /* Przykład */
+    color: white; /* Przykład */
+    border: 0;
+    border-radius: 6px; /* Zaokrąglenie guzika */
+    padding: 10px 20px; /* Przykład */
+    font-weight: bold;
+    margin-bottom: 20px; /* Odstęp od tekstu poniżej */
+    width: 75%; /* Możesz określić szerokość jako procentową, aby były węższe */
+  margin-left: auto; /* Wyśrodkowanie przycisku w pojemniku */
+  margin-right: auto; /* Wyśrodkowanie przycisku w pojemniku */
+  display: block; /* Zapewnienie, że marginy auto zadziałają */
+  }
+  .button {
+    /* Stylizacja guzika */
+    background-color: #333333; /* Przykład */
+    color: white; /* Przykład */
+    border: 0;
+    border-radius: 6px; /* Zaokrąglenie guzika */
+    padding: 10px 20px; /* Przykład */
+    font-weight: bold;
+    margin-bottom: 20px; /* Odstęp od tekstu poniżej */
+    width: 75%; /* Możesz określić szerokość jako procentową, aby były węższe */
+    margin-left: auto; /* Wyśrodkowanie guzika w pojemniku */
+    margin-right: auto; /* Wyśrodkowanie guzika w pojemniku */
+    display: block; /* Zapewnienie, że marginy auto zadziałają */
+    text-decoration: none; /* Usunięcie podkreślenia */
+    text-align: center; /* Wyśrodkowanie tekstu */
+  }
+  
+
+  .london {
+    margin-left: auto; /* Wyśrodkowanie przycisku w pojemniku */
+    margin-right: auto; /* Wyśrodkowanie przycisku w pojemniku */
+    margin-bottom: 20px;
+    display: block; /* Zapewnienie, że marginy auto zadziałają */
+    color: #4D660A;
+    font-size: 14px;
+  }
+
+  .title {
+    /* Stylizacja tytułu */
+    margin-left: auto; /* Wyśrodkowanie przycisku w pojemniku */
+    margin-right: auto; /* Wyśrodkowanie przycisku w pojemniku */
+    margin-bottom: 8px;
+    font-size: 20px;
+    font-weight: bold;
+    color:white;
+    
+  }
+  
+
+  .profile-pic {
+    width: 80px; /* Ustaw szerokość obrazka */
+    height: 80px; /* Ustaw wysokość obrazka */
+    border-radius: 50%; /* To sprawia, że obrazek jest kołem */
+    display: block; /* Umożliwia stosowanie marginesów */
+    margin: 20px auto; /* Wyśrodkowanie w poziomie */
+  }
+  

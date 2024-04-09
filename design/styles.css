@@ -1,0 +1,90 @@
+/* Resetowanie domyślnych stylów przeglądarki */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Kumbh Sans', sans-serif; /* Dostosuj do używanej czcionki */
+  background-color: #1D1E35; /* Dostosuj kolor tła */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 1rem;
+}
+
+.card {
+  background-color: #2C2C6C; /* Dostosuj kolor tła karty */
+  border-radius: 15px;
+  width: 100%;
+  max-width: 375px; /* Maksymalna szerokość dla mobilnych */
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Lekki cień dla karty */
+}
+
+.card .profile {
+  padding: 3rem 2rem;
+  text-align: center;
+  color: white;
+}
+
+.card img {
+  border-radius: 50%;
+  width: 80px; /* Dostosuj do wymiarów obrazka */
+  height: auto;
+  margin-bottom: 1rem;
+}
+
+.card h1 {
+  margin-bottom: 0.5rem;
+  font-size: 1.2rem; /* Dostosuj do potrzeb */
+}
+
+.card h2 {
+  margin-bottom: 2rem;
+  font-size: 1rem; /* Dostosuj do potrzeb */
+  color: #F3BF99; /* Dostosuj kolor tekstu */
+}
+
+.card .links {
+  background-color: #191A3E; /* Dostosuj kolor tła sekcji z linkami */
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.card .links a {
+  background-color: #6565AD; /* Dostosuj kolor tła przycisków */
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  border-radius: 10px;
+  text-decoration: none;
+  margin-bottom: 1rem;
+  font-size: 1rem;
+  transition: background-color 0.3s; /* Dla efektu płynnej zmiany koloru */
+}
+
+.card .links a:last-child {
+  margin-bottom: 0;
+}
+
+.card .links a:hover {
+  background-color: #7878D1; /* Kolor tła przycisków podczas najechania */
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  color: white;
+  padding: 2rem;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+  text-decoration: none;
+}
